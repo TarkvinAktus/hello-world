@@ -14,18 +14,21 @@ And test two types of lists
 1. Item 3
    1. Item 3.a
    1. Item 3.b
-   
+
+Add picture
    ![Hi](https://vignette.wikia.nocookie.net/life-is-strange/images/1/1a/Fc%2C550x550%2Cwhite.jpg/revision/latest?cb=20170413133044&path-prefix=ru)
 Format: ![Ooops](url)
 
 Some info about good DB - automatic!
 [Some info about good DB](https://habrahabr.ru/post/254773/)
 
+Quote
 Andrew Ryan:
 
 > “It was not impossible to build Rapture at the bottom of the sea. 
 > It was impossible to build it anywhere else.” 
 
+Code snippets
 #### *One crazy idea to write web server on c++* ####
 ```c++
 	for (;;) {
@@ -73,6 +76,13 @@ CLAUSES
 GOAL  
   X=3, factorial(X,FX).  
 ``` 
+function fancyAlert(arg) {
+      if(arg) {
+        $.facebox({div:'#foo'})
+      }
+    }
+Table
+
 Время|Предмет|Вид занятий|ФИО преподавателя 
 -----|-------|-----------|-----------------
 9:00-10:30|Физкультура и спорт| - | - 
@@ -82,6 +92,7 @@ GOAL
 16:20-17:50|Системы тестирования ПО|лаб|Басок Б.М.
 
 Link to my friend's github:
-zobninatn/zobninatn.github.io
+zobninatn/zobninatn.github.io#1
 
+Emoji
 :pig2::dash::dash:
