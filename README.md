@@ -3,7 +3,8 @@
 ###### So let's try to do something ######
 
 Try to do **Bold** and *italic* text.
-And test two types of lists\n
+
+And test two types of lists.
 * Item 1
 * Item 2
   * Item 2.a
