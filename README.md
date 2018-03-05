@@ -3,7 +3,7 @@
 ###### So let's try to do something ######
 
 Try to do **Bold** and *italic* text.
-And test two types of lists
+And test two types of lists\n
 * Item 1
 * Item 2
   * Item 2.a
@@ -15,20 +15,20 @@ And test two types of lists
    1. Item 3.a
    1. Item 3.b
 
-Add picture
+Add picture\n
    ![Hi](https://vignette.wikia.nocookie.net/life-is-strange/images/1/1a/Fc%2C550x550%2Cwhite.jpg/revision/latest?cb=20170413133044&path-prefix=ru)
 Format: ![Ooops](url)
 
-Some info about good DB - automatic!
-[Some info about good DB](https://habrahabr.ru/post/254773/)
+Some info about good DB\n
+[here](https://habrahabr.ru/post/254773/)
 
-Quote
+Quote\n
 Andrew Ryan:
 
 > “It was not impossible to build Rapture at the bottom of the sea. 
 > It was impossible to build it anywhere else.” 
 
-Code snippets
+Code snippets\n
 #### *One crazy idea to write web server on c++* ####
 ```c++
 	for (;;) {
@@ -81,7 +81,7 @@ function fancyAlert(arg) {
         $.facebox({div:'#foo'})
       }
     }
-Table
+Table\n
 
 Время|Предмет|Вид занятий|ФИО преподавателя 
 -----|-------|-----------|-----------------
@@ -92,7 +92,7 @@ Table
 16:20-17:50|Системы тестирования ПО|лаб|Басок Б.М.
 
 Link to my friend's github:
-zobninatn/zobninatn.github.io#1
+@zobninatn/zobninatn.github.io
 
 Emoji
 :pig2::dash::dash:
