@@ -1,35 +1,65 @@
-# This is an <h1> tag #
-## This is an <h2> tag ##
-###### This is an <h6> tag ######
+# Web Technologies #
+## This is my first experience in markdown ##
+###### So let's try to do something ######
 
-**Bold** and *italic* text
+Try to do **Bold** and *italic* text.
 * Item 1
 * Item 2
-  * Item 2a
-  * Item 2b
+  * Item 2.a
+  * Item 2.b
   
 1. Item 1
 1. Item 2
 1. Item 3
-   1. Item 3a
-   1. Item 3b
+   1. Item 3.a
+   1. Item 3.b
    
    ![GitHub Logo](/images/logo.png)
 Format: ![Alt Text](url)
 
-http://github.com - automatic!
-[GitHub](http://github.com)
+Some info about good DB - automatic!
+[Some info about good DB](https://habrahabr.ru/post/254773/)
 
-As Kanye West said:
+Andrew Ryan:
 
-> We're living the future so
-> the present is our past.
+> “It was not impossible to build Rapture at the bottom of the sea. 
+> It was impossible to build it anywhere else.” 
 
-```ruby
-require 'redcarpet'
-markdown = Redcarpet.new("Hello World!")
-puts markdown.to_html
+#### *One crazy idea to write web server on c++* ####
+```c++
+	for (;;) {
+		// Принимаем входящие соединения
+		client_socket = accept(listen_socket, NULL, NULL);
+		if (client_socket == INVALID_SOCKET) {
+			cerr << "accept failed: " << WSAGetLastError() << "\n";
+			closesocket(listen_socket);
+			WSACleanup();
+			return 1;
+		}
+		
+		result = recv(client_socket, buf, max_client_buffer_size, 0);
+
+		std::stringstream response; // сюда будет записываться ответ клиенту
+		std::stringstream response_body; // тело ответа
+
+		if (result == SOCKET_ERROR) {
+			// ошибка получения данных
+			cerr << "recv failed: " << result << "\n";
+			closesocket(client_socket);
+		}
+		else if (result == 0) {
+			// соединение закрыто клиентом
+			cerr << "connection closed...\n";
+		}
+		else if (result > 0) {
+			// Мы знаем размер полученных данных, поэтому ставим метку конца строки
+			// В буфере запроса.
+			buf[result] = '\0';
+
+			// Данные успешно получены
+			// формируем тело ответа (HTML)
 ```
+#### *And my nightmares (from Antick's home tasks)* ####
 ```prolog
 PREDICATES
   factorial(unsigned, long)
@@ -42,10 +72,14 @@ CLAUSES
 GOAL  
   X=3, factorial(X,FX).  
 ``` 
-First Header | Second Header
------------- | -------------
-Content from cell 1 | Content from cell 2
-Content in the first column | Content in the second column
+Время|Предмет|Вид занятий|ФИО преподавателя 
+-----|-------|-----------|-----------------
+9:00-10:30|Физкультура и спорт| - | - 
+10:40-12:10|ФиЛ программирование|лк|Смольянинова В.А.
+13:00-14:30|Системы тестирования ПО|Басок Б.М.
+14:40-16:10|Системы тестирования ПО|Басок Б.М.
+16:20-17:50|Системы тестирования ПО|Басок Б.М.
+
 
 #1
 mojombo#1
