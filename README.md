@@ -15,9 +15,8 @@ And test two types of lists\n
    1. Item 3.a
    1. Item 3.b
 
-Add picture
+
    ![Hi](https://vignette.wikia.nocookie.net/life-is-strange/images/1/1a/Fc%2C550x550%2Cwhite.jpg/revision/latest?cb=20170413133044&path-prefix=ru)
-Format: ![Ooops](url)
 
 Some info about good DB 
 [here](https://habrahabr.ru/post/254773/)
@@ -75,8 +74,10 @@ CLAUSES
 GOAL   
 ``` 
 And the goal
-`X=3, factorial(X,FX). `
-Table
+`X=3, factorial(X,FX) `
+
+Tue timetable:
+
 
 Время|Предмет|Вид занятий|ФИО преподавателя 
 -----|-------|-----------|-----------------
