@@ -87,7 +87,7 @@ Tue timetable:
 14:40-16:10|Системы тестирования ПО|лаб|Басок Б.М.
 16:20-17:50|Системы тестирования ПО|лаб|Басок Б.М.
 
-Link to my friend's github:
-@zobninatn
-Emoji
+[A link](https://github.com/zobninatn) to my friend on github.
+
+Emoji!
 :pig2::dash::dash:
