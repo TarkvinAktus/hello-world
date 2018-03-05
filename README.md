@@ -3,6 +3,7 @@
 ###### So let's try to do something ######
 
 Try to do **Bold** and *italic* text.
+And test two types of lists
 * Item 1
 * Item 2
   * Item 2.a
@@ -14,8 +15,8 @@ Try to do **Bold** and *italic* text.
    1. Item 3.a
    1. Item 3.b
    
-   ![GitHub Logo](/images/logo.png)
-Format: ![Alt Text](url)
+   ![Hi](https://vignette.wikia.nocookie.net/life-is-strange/images/1/1a/Fc%2C550x550%2Cwhite.jpg/revision/latest?cb=20170413133044&path-prefix=ru)
+Format: ![Ooops](url)
 
 Some info about good DB - automatic!
 [Some info about good DB](https://habrahabr.ru/post/254773/)
@@ -76,13 +77,11 @@ GOAL
 -----|-------|-----------|-----------------
 9:00-10:30|Физкультура и спорт| - | - 
 10:40-12:10|ФиЛ программирование|лк|Смольянинова В.А.
-13:00-14:30|Системы тестирования ПО|Басок Б.М.
-14:40-16:10|Системы тестирования ПО|Басок Б.М.
-16:20-17:50|Системы тестирования ПО|Басок Б.М.
+13:00-14:30|Системы тестирования ПО|лк|Басок Б.М.
+14:40-16:10|Системы тестирования ПО|лаб|Басок Б.М.
+16:20-17:50|Системы тестирования ПО|лаб|Басок Б.М.
 
-
-#1
-mojombo#1
-mojombo/github-flavored-markdown#1
+Link to my friend's github:
+zobninatn/zobninatn.github.io
 
 :pig2::dash::dash:
