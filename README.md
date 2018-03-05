@@ -15,20 +15,19 @@ And test two types of lists\n
    1. Item 3.a
    1. Item 3.b
 
-Add picture\n
+Add picture
    ![Hi](https://vignette.wikia.nocookie.net/life-is-strange/images/1/1a/Fc%2C550x550%2Cwhite.jpg/revision/latest?cb=20170413133044&path-prefix=ru)
 Format: ![Ooops](url)
 
-Some info about good DB\n
+Some info about good DB 
 [here](https://habrahabr.ru/post/254773/)
 
-Quote\n
 Andrew Ryan:
 
 > “It was not impossible to build Rapture at the bottom of the sea. 
 > It was impossible to build it anywhere else.” 
 
-Code snippets\n
+Code snippets
 #### *One crazy idea to write web server on c++* ####
 ```c++
 	for (;;) {
@@ -73,15 +72,11 @@ CLAUSES
   NewN=N-1, % факториал числа N-1 и умножить его на N. 
   factorial(NewN,Ft), 
   FN = N*Ft. 
-GOAL  
-  X=3, factorial(X,FX).  
+GOAL   
 ``` 
-function fancyAlert(arg) {
-      if(arg) {
-        $.facebox({div:'#foo'})
-      }
-    }
-Table\n
+And the goal
+`X=3, factorial(X,FX). `
+Table
 
 Время|Предмет|Вид занятий|ФИО преподавателя 
 -----|-------|-----------|-----------------
@@ -92,7 +87,6 @@ Table\n
 16:20-17:50|Системы тестирования ПО|лаб|Басок Б.М.
 
 Link to my friend's github:
-@zobninatn/zobninatn.github.io
-
+@zobninatn
 Emoji
 :pig2::dash::dash:
